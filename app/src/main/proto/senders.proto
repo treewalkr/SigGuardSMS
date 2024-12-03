@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.treewalker.datastore";
+option java_outer_classname = "SendersProto";
+
+message Senders {
+  repeated string sender = 1;
+}
